@@ -1,0 +1,7 @@
+emreal, emdolar, emarco, emlibra: real
+Escreval("Vai viajar para um lugar incrível? Converta seu dinheiro aqui! ")
+Leia(emreal)
+emdolar <- emreal/1,80
+emarco <- emreal/2
+emlibra <- emreal/3,57
+Escreva("Você tem" emdolar " dólares," emarco " marcos alemães, e" emlibras " libras! Boa viagem!")
