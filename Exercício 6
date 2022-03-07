@@ -1,0 +1,9 @@
+salfixo, comissao, vendas, saltotal: real
+Escreval("Quer saber quanto dindim seu chefe vai te dar? Preencha os campos abaixo!")
+Escreva("Qual é o valor do seu salário fixo? ")
+Leia(salfixo)
+Escreva("Quantos reais você vendeu esse mês? No total. ")
+Leia(vendas)
+comissao <- 0.04 * vendas
+saltotal <- comissao + salfixo
+Escreva("VocÊ receberá um total de " saltotal " reais")
